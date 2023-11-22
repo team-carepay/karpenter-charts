@@ -1,8 +1,8 @@
-{{- range .Values.nodePool }}
+{{- range $key, $value := .Values.nodePool }}
 apiVersion: karpenter.sh/v1beta1
 kind: NodePool
 metadata:
-  name: {{ .name }}
+  name: {{ $key }}
 spec:
   template:
     metadata:
