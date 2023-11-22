@@ -37,7 +37,7 @@ spec:
   {{- if .disruption }}
   disruption: 
     consolidationPolicy: {{ default "WhenUnderutilized" .disruption.consolidationPolicy }}
-    consolidateAfter: {{ default  "30s" .disruption.consolidateAfter }}
+    consolidateAfter: {{ .disruption.consolidateAfter }}
     expireAfter: {{ default "720h" .disruption.expireAfter }}
   {{- end }}
 
