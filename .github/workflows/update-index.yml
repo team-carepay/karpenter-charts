@@ -21,6 +21,6 @@ jobs:
           helm repo index ./charts
           git config --global user.email "carepaybot@carepay.com"
           git config --global user.name "Carepay Bot"
-          git add index.yaml
+          git add ./charts/index.yaml
           git commit -m "Update chart index"
           git push
