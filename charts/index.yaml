@@ -3,7 +3,26 @@ entries:
   karpenter-nodepool:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-22T16:01:13.855207253Z"
+    created: "2023-11-22T19:33:02.573773342Z"
+    description: A Helm chart for Karpenter Node pool, it will create the NodePool
+      and the Ec2NodeClass.
+    digest: 05ce72083d3abfefc4312c643f40e3cf6460219aaa0986bb858529670ab1df4d
+    home: https://github.com/team-carepay/karpenter-charts
+    icon: https://repository-images.githubusercontent.com/278480393/dab059c8-caa1-4b55-aaa7-3d30e47a5616
+    keywords:
+    - cluster
+    - node
+    - autoscaling
+    name: karpenter-nodepool
+    sources:
+    - https://github.com/team-carepay/karpenter-charts
+    type: application
+    urls:
+    - karpenter-nodepool-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-11-22T19:33:02.573355134Z"
     description: A Helm chart for Karpenter Node pool, it will create the NodePool
       and the Ec2NodeClass.
     digest: 2af104ba57082e31121d91e7159015bbfc000b9079203506d19c27b3b6376737
@@ -22,7 +41,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-22T16:01:13.854619666Z"
+    created: "2023-11-22T19:33:02.572943679Z"
     description: A Helm chart for Karpenter Node pool, it will create the NodePool
       and the Ec2NodeClass.
     digest: a74dce9a4ad90b86e4b2f785ec44d404f60ef160dd16aa3f606ea16669f456cb
@@ -41,7 +60,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-22T16:01:13.854215972Z"
+    created: "2023-11-22T19:33:02.572489164Z"
     description: A Helm chart for Karpenter Node pool, it will create the NodePool
       and the Ec2NodeClass.
     digest: 7eb9d255a5287a59b80e4be1ce123b3515f97b45556b50c7d27709cc2d51bd83
@@ -60,7 +79,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-22T16:01:13.853799635Z"
+    created: "2023-11-22T19:33:02.572075084Z"
     description: A Helm chart for Karpenter Node pool, it will create the NodePool
       and the Ec2NodeClass.
     digest: dd0eaec68984c1da8d6a1942152e10141f958da691238824d9b209b23793ca38
@@ -79,7 +98,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-22T16:01:13.853354604Z"
+    created: "2023-11-22T19:33:02.57163736Z"
     description: A Helm chart for Karpenter Node pool, it will create the NodePool
       and the Ec2NodeClass.
     digest: f5282475e632b6f97dc40da054e5763e5a94c271274badbefc2685f28f0d6849
@@ -98,7 +117,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-22T16:01:13.852917848Z"
+    created: "2023-11-22T19:33:02.571159531Z"
     description: A Helm chart for Karpenter Node pool, it will create the NodePool
       and the Ec2NodeClass.
     digest: 7ce327eb28f9d5ec8128922c32f2747b8091af564191c0f65084f096904db2c7
@@ -115,4 +134,4 @@ entries:
     urls:
     - karpenter-nodepool-0.0.1.tgz
     version: 0.0.1
-generated: "2023-11-22T16:01:13.85225458Z"
+generated: "2023-11-22T19:33:02.569579802Z"
