@@ -3,7 +3,26 @@ entries:
   karpenter-nodepool:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-11-22T14:07:03.741965249Z"
+    created: "2023-11-22T15:27:48.536648035Z"
+    description: A Helm chart for Karpenter Node pool, it will create the NodePool
+      and the Ec2NodeClass.
+    digest: f5282475e632b6f97dc40da054e5763e5a94c271274badbefc2685f28f0d6849
+    home: https://github.com/team-carepay/karpenter-charts
+    icon: https://repository-images.githubusercontent.com/278480393/dab059c8-caa1-4b55-aaa7-3d30e47a5616
+    keywords:
+    - cluster
+    - node
+    - autoscaling
+    name: karpenter-nodepool
+    sources:
+    - https://github.com/team-carepay/karpenter-charts
+    type: application
+    urls:
+    - karpenter-nodepool-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-11-22T15:27:48.53617516Z"
     description: A Helm chart for Karpenter Node pool, it will create the NodePool
       and the Ec2NodeClass.
     digest: 7ce327eb28f9d5ec8128922c32f2747b8091af564191c0f65084f096904db2c7
@@ -20,4 +39,4 @@ entries:
     urls:
     - karpenter-nodepool-0.0.1.tgz
     version: 0.0.1
-generated: "2023-11-22T14:07:03.74085087Z"
+generated: "2023-11-22T15:27:48.535353683Z"
