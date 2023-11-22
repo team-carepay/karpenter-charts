@@ -5,16 +5,9 @@ Expand the name of the chart.
 {{- default $.Chart.Name $.Values.nameOverride | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-#{{/*
-#Return instance and name labels.
-#*/}}
-#{{- define "instance-name" -}}
-#app.kubernetes.io/instance: {{ $.Release.Name | quote }}
-#app.kubernetes.io/name: {{ include "chart.name" . | quote }}
-#{{- end -}}
 
 {{/*
-Create chart name and version as used by the chart label.
+Create chart name by the chart label.
 */}}
 {{- define "chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
@@ -22,13 +15,9 @@ Create chart name and version as used by the chart label.
 
 
 {{/*
-Return labels, including instance, name and version.
+Return labels, including name and globalLabels 
 */}}
 {{- define "labels" -}}
-app.kubernetes.io/managed-by: {{ .Release.Service | quote }}
-{{- if .Chart.AppVersion }}
-app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
-{{- end }}
 helm.sh/chart: {{ include "chart" . | quote }}
 {{- if .globalLabels }}
 {{ toYaml .globalLabels }}
